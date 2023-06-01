@@ -1,0 +1,34 @@
+.technologies-container{
+    margin-bottom: 1rem
+    
+}
+
+.technologies-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+.technology-card{
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem; 
+    border: 1px solid #333; 
+    width: 90%; 
+    border-radius: 5px;  
+     
+}
+.technologies-container h3{
+    color: #fff;
+    margin-bottom: 1rem;
+
+}
+.technologies-container svg{
+    font-size: 10rem;
+}
+
+.tecn{
+    color: #b92b2b;
+}

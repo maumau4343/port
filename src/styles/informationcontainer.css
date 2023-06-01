@@ -1,0 +1,58 @@
+.information{
+
+    flex-direction: column;
+    background-color: #161616d2;
+    padding: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    text-align: left;
+    width: 80%;
+    border-radius: 5px;
+}
+
+.info-card{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 1rem;
+    padding-bottom: .8rem;
+    margin-bottom: .8rem;
+    border-bottom: 1px solid #444;
+    width: 100%;
+}
+
+.info-card h3 {
+    color: #a6a6a6;
+    font-size: .8rem;
+    margin-bottom: .5rem;
+}
+
+.info-card p{
+    color: #ffffff;
+    font-weight: bold;
+}
+.info-card h7{
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 8pt;
+}
+
+.info-card svg{
+    background-color: #0000008e;
+    padding: .4rem;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 5px;
+}
+
+.phone-icon{
+    color: #b92b2b;
+}
+
+.email-icon{
+    color: #b92b2b;
+}
+
+.pin-icon{
+    color: #b92b2b;
+}

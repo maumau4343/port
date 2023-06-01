@@ -1,0 +1,36 @@
+.social-network{
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+    gap: 1rem;
+    margin: 1rem 0;
+}
+
+.social-btn{
+    padding: .6rem;
+    background-color: #0000008e;
+    border-radius: 5px;
+    color: #333;
+    font-size: 1.3rem;
+    margin: 8px;
+    display: inline-flex;
+    justify-content: baseline;
+    align-items: center;
+}
+
+.linkedin{
+    color: #b92b2b;
+}
+
+.instagram{
+    color: #b92b2b;
+}
+
+.github{
+    color: #b92b2b;
+}
+
+.social-btn:hover{
+    background-image: linear-gradient(20deg, #c91212 , #8508d8   );
+}
+

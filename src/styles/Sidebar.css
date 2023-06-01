@@ -1,0 +1,38 @@
+
+
+.sidebar{
+    background-color: #000000d2;
+    flex: 1 1 0;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    padding: 3rem 0;
+    max-height: 780px;
+}
+
+
+.sidebar img{
+    max-width: 70%;
+    border-radius: 10px;
+    position: absolute;
+    top: -3rem;
+}
+
+.title{
+    color: #a6a6a6;
+    background-color: #161616d2;
+    border-radius: 5px;
+    margin-top: 12rem;
+    padding: .8rem 1.2rem;
+}
+
+.btn{
+    padding: 1rem 1.2rem;
+    color: #000000;
+    text-decoration: none;
+    border-radius: 3rem;
+    background-image: linear-gradient(20deg, #c91212 , #8508d8 );
+}
